@@ -1,0 +1,464 @@
+/* responsive @media css part start */
+
+@media(min-width:992px) and (max-width:1200px) {
+    #about .button10 a > span {
+        font-size: 13px;
+    }
+    .counter_content p:after {
+        left: 150px;
+        top: 50px;
+        width: 150px;
+    }
+}
+
+/* media ends of large/1200px */
+
+/* media start of tab/991px */
+
+@media(min-width:767px) and (max-width:991px) {
+    body {
+        overflow-x: hidden;
+    }
+    .navbar-light .navbar-toggler-icon {
+        border-color: #fff;
+    }
+    #navigation .navbar .navbar-nav .nav-item .nav-link {
+        background: rgb(255, 249, 249);
+        border-bottom: 2px solid #fff;
+    }
+    .banner_overlay {
+        padding: 150px 0;
+    }
+    svg {
+        margin: 55px auto;
+    }
+    .shape_img {
+        bottom: -3px;
+    }
+    .footer_shape_img {
+        position: absolute;
+        top: 100px;
+        left: 0;
+        width: 100%;
+        z-index: 10;
+    }
+
+    .banner_text h1 {
+        font-size: 35px;
+        margin-top: -135px;
+    }
+    .banner_text h1 > a {
+        font-size: 35px;
+    }
+    #testmonial .common_part{
+        padding-bottom: 30px;
+    }
+    #testmonial .common_part h3,
+    #portfolio .common_part h3,
+    #about .common_part h3 {
+        font-size: 38px;
+        padding-bottom: 8px;
+    }
+    #portfolio .common_part p,
+    #about .common_part p {
+        font-size: 26px;
+    }
+    #testmonial .common_part p:before,
+    #portfolio .common_part p:before,
+    #about .common_part p:before {
+        left: 44%;
+    }
+    #testmonial .common_part p:before{
+        bottom: 0;
+    }
+    #testmonial .testmonial_content p{
+        font-size: 24px;
+        line-height: 40px;
+    }
+    #about .skill p {
+        font-size: 26px;
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+    #about .skill .my_skill {
+        padding-top: 8px;
+        padding-bottom: 5px;
+    }
+    #about .button10 {
+        padding: 7px 10px;
+    }
+    #about .button10 a {
+        padding-left: 7px;
+    }
+
+    #about .button10 a > span {
+        font-size: 12px;
+    }
+    #about .skillbar-title span,
+    #about .skillbar-bar,
+    #about .skillbar {
+        height: 30px;
+    }
+    #about .skillbar-title span {
+        line-height: 24px;
+        font-size: 20px;
+    }
+    #about .skill-bar-percent {
+        font-size: 22px;
+        line-height: 25px;
+        color: #000;
+    }
+    
+    #third_part {
+        text-align: center;
+    }
+    #third_part .third_main{
+        margin-top: 20px;
+    }
+    #third_part .third_part_icon i {
+        font-size: 35px;
+        padding-top: 22px;
+    }
+    #third_part .third_part_content h4,
+    #third_part .third_part_number strong {
+        font-size: 26px;
+    }
+    .cbp-l-filters-alignRight .cbp-filter-item{
+        font-size: 22px;
+    }
+    .counter_content h6 {
+        font-size: 22px;
+        padding-top: 8px;
+    }
+    .counter_content p i {
+        height: 80px;
+        width: 80px;
+        line-height: 80px;
+    }
+    .counter_content p:after {
+        left: 110px;
+        top: 43px;
+        width: 107px;
+    }
+    #Questions .faq_collaps {
+        padding-top: 25px;
+    }
+    #accordion a span{
+        font-size: 20px;
+    }
+    #accordion .card-block p{
+        font-size: 24px;
+    }
+    #map_main .map_content h3:before{
+        left: 44.5%;
+    }
+    .contact {
+        padding-bottom: 30px;
+        border-bottom: 1px dashed #000;
+    }
+    
+    label,
+    .contact a,
+    .contact p,
+    .contact h5,
+    .contact h4,
+    .contact h2 {
+        font-size: 26px;
+    }
+    .form_head h3 {
+        font-size: 30px;
+        padding-top: 30px;
+    }
+    .btn,
+    .form-control{
+        font-size: 1.5rem;
+    }
+    .copy_right_content h3{
+        font-size: 20px;
+    }
+    .bottom {
+        top: 301px;
+    }
+    .top_to {
+        text-align: center;
+        position: fixed;
+        right: 20px;
+        bottom: 20px;
+        display: none;
+        z-index: 11111;
+        transition: all linear .3s;
+    }
+    .top_to h6 {
+        writing-mode: vertical-rl;
+        font-family: 'Montserrat', sans-seri;
+        font-size: 12px;
+        color: #504a4a;
+    }
+    .top_to > span {
+        position: relative;
+    }
+    .top_to > span:after {
+        position: absolute;
+        height: 80px;
+        width: 1px;
+        background: #000;
+        bottom: -5px;
+        left: -10px;
+        content: '';
+        z-index: 99999999;
+    }
+}
+
+/* media ends of tab/991px */
+
+
+/* media start of mobile/480px */
+
+@media(min-width:320px) and (max-width:480px) {
+
+
+    body {}
+    .navbar-light .navbar-toggler-icon {
+        border-color: #fff;
+    }
+    #navigation .navbar .navbar-nav .nav-item .nav-link {
+        background: rgba(180, 177, 177, 0.45);
+        border-bottom: 2px solid #fff;
+    }
+    .banner_overlay {
+        padding: 150px 0;
+    }
+    svg {
+        padding-bottom: 20px;
+        font: 10em 'Montserrat';
+        display: inline-block;
+        width: 100%;
+        margin: 35px auto;
+    }
+    #shape {
+        position: relative;
+    }
+    .shape_img {
+        bottom: -3px;
+    }
+    .banner_text h1 {
+        font-size: 14px;
+    }
+    .banner_text h1 > a {
+        font-size: 14px;
+    }
+    ,
+    .hide {
+        display: none;
+    }
+    #counter {
+        display: none;
+    }
+    #testmonial,
+    #about {
+        padding-top: 50px;
+    }
+    #portfolio .common_part p,
+    #about .common_part {
+        padding-bottom: 0px;
+    }
+    #testmonial .common_part h3,
+    #portfolio .common_part h3,
+    #about .common_part h3 {
+        font-size: 25px;
+        padding-bottom: 5px;
+    }
+    #portfolio .common_part p,
+    #about .common_part p {
+        font-size: 14px;
+        margin-bottom: 35px;
+    }
+
+    #testmonial .common_part p:before,
+    #portfolio .common_part p:before,
+    #about .common_part p:before {
+        left: 40%;
+        width: 60px;
+    }
+    #about .skill p {
+        font-size: 26px;
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+    #about .skill .my_skill {
+        padding-top: 8px;
+        padding-bottom: 5px;
+    }
+    #about .button10 {
+        padding: 7px 10px;
+    }
+    #about .button10 a {
+        padding-left: 7px;
+    }
+
+    #about .button10 a > span {
+        font-size: 12px;
+    }
+    #about .skillbar-title span,
+    #about .skillbar-bar,
+    #about .skillbar {
+        height: 21px;
+    }
+    #about .skillbar-title span {
+        line-height: 17px;
+        font-size: 18px;
+    }
+    #about .skill-bar-percent {
+        font-size: 20px;
+        line-height: 19px;
+        color: #000;
+    }
+    #third_part {
+        text-align: center;
+    }
+    #third_part .third_part_icon i {
+        font-size: 20px;
+    }
+    #third_part .third_part_content h4,
+    #third_part .third_part_number strong {
+        font-size: 14px;
+    }
+    #third_part .third_main {
+        border-left: 2px solid #000;
+        margin-top: 10px;
+    }
+    
+    
+    .cbp-l-filters-alignRight .cbp-filter-item{
+        font-size: 18px;
+    }
+    #Questions .faq_collaps {
+        padding-top: 25px;
+    }
+    #accordion a span{
+        font-size: 20px;
+    }
+    #accordion .card-block p{
+        font-size: 24px;
+    }
+    #map_main .map_content h3 {
+        font-size: 30px;
+    }
+    #map_main .map_content h3:before {
+        left: 40%;
+    }
+    
+    #Questions {
+        padding-top: 0;
+    }
+
+    #Questions .faq_collaps {
+        padding-top: 25px;
+    }
+    #Questions .faq_collaps h3 {
+        font-size: 20px;
+    }
+
+    #accordion .card-block p,
+    #accordion a span {
+        font-size: 16px;
+    }
+    #testmonial .common_part p:before {
+        bottom: 0;
+        left: 40%;
+    }
+    #testmonial .common_part {
+        padding-bottom: 20px;
+    }
+    #testmonial .testmonial_content p {
+        font-size: 16px;
+    }
+    #last_part {
+        padding-top: 0;
+    }
+    .contact {
+        padding-bottom: 30px;
+        border-bottom: 1px dashed #000;
+    }
+    .contact h2 {
+        font-size: 18px;
+    }
+    label,
+    .contact a,
+    .contact p,
+    .contact h5,
+    .contact h4 {
+        font-size: 16px;
+    }
+    .contact p > i {
+        font-size: 14px;
+    }
+    .form_head h3 {
+        font-size: 20px;
+        padding-top: 20px;
+    }
+
+    .copy_right_icon ul li a i {
+        margin: 5px;
+    }
+    .top_to {
+        text-align: center;
+        position: fixed;
+        right: 16px;
+        bottom: 20px;
+        display: none;
+        z-index: 11111;
+        cursor: pointer;
+        transition: all linear 0.3s;
+        -webkit-transition: all linear 0.3s;
+        -moz-transition: all linear 0.3s;
+        -o-transition: all linear 0.3s;
+    }
+    .top_to h6 {
+        writing-mode: vertical-rl;
+        font-family: 'Montserrat', sans-seri;
+        font-size: 10px;
+        color: #504a4a;
+    }
+    .top_to > span {
+        position: relative;
+    }
+    .top_to span:after {
+        position: absolute;
+        bottom: 66px;
+        left: 5px;
+        content: '';
+        background: #000;
+        height: 27px;
+        width: 1px;
+        z-index: 99999999;
+    }
+    .footer_shape_img {
+        position: absolute;
+        top: 95px;
+        left: 0;
+        width: 100%;
+        z-index: 10;
+    }
+    .copy_right_icon ul li a i.fb_icon {
+        margin-left: -15px;
+    }
+    .copy_right_content h3 {
+        padding-top: 36px;
+    }
+    .bottom {
+        top: 268px;
+        right: 16px;
+    }
+    .bottom h6 a {
+        font-size: 10px;
+    }
+    .bottom h6:after {
+        top: 85px;
+        left: 5px;
+        height: 27px;
+        width: 1px;
+    }
+
+
+}
